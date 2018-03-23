@@ -12,7 +12,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="NumberCheckerTestCase.lvclass" Type="LVClass" URL="../Testing/NumberCheckerTestCase/NumberCheckerTestCase.lvclass"/>
+		<Item Name="Modes" Type="Folder">
+			<Item Name="Game Mode.lvclass" Type="LVClass" URL="../Game Mode/Game Mode.lvclass"/>
+			<Item Name="Single Computer PvP.lvclass" Type="LVClass" URL="../Game Mode/PvP-1/Single Computer PvP.lvclass"/>
+		</Item>
+		<Item Name="Testing" Type="Folder">
+			<Item Name="NumberCheckerTestCase.lvclass" Type="LVClass" URL="../Testing/NumberCheckerTestCase/NumberCheckerTestCase.lvclass"/>
+		</Item>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Validate Number.vi" Type="VI" URL="../Validator/Validate Number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
