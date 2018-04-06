@@ -16,10 +16,16 @@
 			<Item Name="Game Mode.lvclass" Type="LVClass" URL="../Game Mode/Game Mode.lvclass"/>
 			<Item Name="Single Computer PvP.lvclass" Type="LVClass" URL="../Game Mode/PvP-1/Single Computer PvP.lvclass"/>
 		</Item>
+		<Item Name="PvE-NonOpponent" Type="Folder">
+			<Item Name="Number Generator.vi" Type="VI" URL="../Game Mode/Number Generator.vi"/>
+			<Item Name="Test-PlayerVsComputerNoGuesses.vi" Type="VI" URL="../Test-PlayerVsComputerNoGuesses.vi"/>
+		</Item>
 		<Item Name="Testing" Type="Folder">
 			<Item Name="NumberCheckerTestCase.lvclass" Type="LVClass" URL="../Testing/NumberCheckerTestCase/NumberCheckerTestCase.lvclass"/>
+			<Item Name="ScoringTestCase.lvclass" Type="LVClass" URL="../Testing/ScoringTestCase/ScoringTestCase.lvclass"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Scorer.vi" Type="VI" URL="../Scoring/Scorer.vi"/>
 		<Item Name="Validate Number.vi" Type="VI" URL="../Validator/Validate Number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
